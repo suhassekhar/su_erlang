@@ -65,7 +65,7 @@ agents_required <- function(demandqty, perxmin = 30, serviceduration, targetserv
   #Data returned
   AgentResults <<- data.frame("Agents_Required"= as.integer(numagents), "Service_Level" =round(servicelevel,2))
   print(paste("Agents Required: ", as.integer(numagents)))
-  print(paste("Service Level: ", round(servicelevel,2)))
+  #print(paste("Service Level: ", round(servicelevel,2)))
   #END
 
 }
