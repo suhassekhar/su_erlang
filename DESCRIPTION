@@ -1,0 +1,8 @@
+Package: qPlanR
+Title: Queue Planning and Forecasting 
+Version: 1.4
+Authors@R: person("Dean", "Marchiori", , "deanmarchiori@gmail.com", role = c("aut", "cre"))
+Description: Algorithms and tools to calculate queue demand and resourcing in a M/M/c queue model using the Erlang-C formula
+Depends: R (>= 3.2.1)
+License: What license is it under? GPL-3
+LazyData: true
